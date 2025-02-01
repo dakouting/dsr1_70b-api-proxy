@@ -1,6 +1,0 @@
-name = "groq-proxy"  # Worker 名称
-main = "groq-proxy.js"  # 入口文件
-compatibility_date = "2025-02-01"  # 兼容性日期
-
-[env.production]
-account_id = "$CLOUDFLARE_ACCOUNT_ID"  # 从 GitHub Secrets 注入
